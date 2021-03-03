@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9F5BB"
+    tools:context=".HomeScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="Email Address"
+        android:layout_margin="16dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="#D7DDD4"
+
+        />
+
+    <TextView
+        android:id="@+id/emailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailLabel"
+        android:text="Email Address"
+        android:layout_margin="16dp"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailTv"
+        android:text="User Password"
+        android:layout_margin="16dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="#D7DDD4"
+        />
+
+    <TextView
+        android:id="@+id/passwordTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLabel"
+        android:text="User Password"
+        android:layout_margin="16dp"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>
